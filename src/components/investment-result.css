@@ -1,0 +1,17 @@
+.result-body {
+    text-align: center;
+    width: 100%;
+    
+
+}
+.result-body tr{
+    display: flex;
+    justify-content: space-evenly ;  
+    border: 1px solid white;
+ 
+}
+.result-body td{
+    
+  width: 25%;
+  border: 1px solid white;
+}

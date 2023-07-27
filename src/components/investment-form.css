@@ -1,0 +1,44 @@
+
+.form{
+    background-color: rgb(32, 68, 62);
+    margin: 0% 20%;
+    border-radius: 10px;
+  
+  }
+  .input-group{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2% 10%;
+    @media (max-width: 875px) {
+      flex-direction: column;
+    }
+  } 
+  .input-group p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .input-group p label{
+    margin-bottom: 2%;
+  }
+  
+  .actions button{
+    padding: 0.6rem 2rem;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    margin-bottom: 1%;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .actions button:hover,
+  .actions button:active {
+    background-color: rgb(44, 44, 44);
+    border-color: #000000;
+  }
+  
+  .actions .submit{
+    margin-left: 2%;
+  }
+  
